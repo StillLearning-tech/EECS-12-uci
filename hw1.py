@@ -15,7 +15,7 @@ def main():
 
     print("The value in 10 years is:", principal)
 
-
+# calculate a new principal for one year
 def year_balance_calc(principal, quarterly_rate, invest_per_quarter):
     for i in range(4):
         principal = principal * (1 + quarterly_rate) + invest_per_quarter
